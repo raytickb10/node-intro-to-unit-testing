@@ -8,7 +8,7 @@ const fizzBuzzer = require('../fizzBuzzer');
 describe('fizzBuzzer', function() {
 
   // test the normal case
-  it('should add two numbers', function() {
+  it('should check if a number is divisible by 3 or 5', function() {
     // range of normal inputs, including
     // notable cases like negative answers
     const normalCases = [
